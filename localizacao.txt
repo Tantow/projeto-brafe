@@ -1,0 +1,12 @@
+Localização das lojas
+
+Requisitos:
+	Section com exposição das lojas com uma imagem da fachada, texto contendo a localização da loja, a distância da localidade atual e um mapa indicando a loja.
+
+Front:
+	Exibir cada loja em três partes horizontalmente respectivamente: imagem da fachada, localização mais distância, mapa.
+	Exibir uma loja abaixo da outra
+
+Back: 
+	Processas a distância entre o usuário e as lojas.
+	Enviar do banco as lojas ordenadas pela distância de forma crescente.
