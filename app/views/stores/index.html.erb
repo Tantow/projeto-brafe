@@ -1,0 +1,14 @@
+<h1>Loja</h1>
+<br>
+
+<p><%= notice %></p>
+<p><%= alert %></p>
+
+<br>
+
+<% @stores.each do |st| %>
+    <p>Endereço: <%= st.address %></p>
+    <p>Telefone: <%= st.telephone %></p>
+    <%= link_to "(Excluir loja)", destroy_store_path(id: st.id), method: :delete, data: { confirm: "Ta fazendo merda não, cara?"}%>
+    <br>
+<% end %>
